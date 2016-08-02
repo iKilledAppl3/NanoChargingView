@@ -9,24 +9,12 @@ UIView *window;
 
 @end
 
+	
+
 %hook SBLockScreenBatteryChargingView
 
 -(void)layoutSubviews{
 
-//there is alot of stuff commented out here coz i decided to change the majority of the code
-
-//%orig;
-
-/*UIAlertView *a = [[UIAlertView alloc]initWithTitle:@"Alert" message:@"SBLockScreenBatteryChargingView -(void)layoutSubviews;" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
-[a show];*/
-
-/*if (!window){
-
-window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-window.backgroundColor = [UIColor clearColor];
-window.windowLevel*/
-
-//removes the default battery text
 
 
 NSMutableDictionary *settings = [NSMutableDictionary dictionaryWithContentsOfFile:[NSString stringWithFormat:@"%@/Library/Preferences/%@",NSHomeDirectory(),@"com.billyellis.nanocharingviewsettings.plist"]];
@@ -44,7 +32,7 @@ window.backgroundColor = [UIColor clearColor];
 //bg image
 
 UIImageView *bg = [[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
-bg.image = [UIImage imageWithContentsOfFile:@"/Library/PreferenceBundles/NanoChargingView.bundle/bg.png"];
+bg.image = [UIImage imageWithContentsOfFile:@"/var/mobile/Library/SpringBoard/LockBackgroundThumbnail.jpg"];
 [window addSubview:bg];
 
 

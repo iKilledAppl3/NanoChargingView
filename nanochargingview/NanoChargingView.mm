@@ -1,4 +1,5 @@
-#import <Preferences/Preferences.h>
+#import "header/PSListController.h"
+#import "header/PSViewController.h"
 
 @interface NanoChargingViewListController: PSListController {
 }
@@ -11,6 +12,12 @@
 	}
 	return _specifiers;
 }
+
+-(void)killSpringBoard {
+	
+	system("killall -9 backboardd");
+}
+
 @end
 
 // vim:ft=objc

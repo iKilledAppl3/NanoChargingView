@@ -1,4 +1,7 @@
 ARCHS = armv7 arm64
+TARGET = iphone:clang:latest
+SDK = iPhoneOS8.1
+
 
 include theos/makefiles/common.mk
 
@@ -7,6 +10,7 @@ NanoChargingView_FILES = NanoChargingView.mm
 NanoChargingView_INSTALL_PATH = /Library/PreferenceBundles
 NanoChargingView_FRAMEWORKS = UIKit
 NanoChargingView_PRIVATE_FRAMEWORKS = Preferences
+CFLAGS = -Wno-deprecated -Wno-deprecated-declarations
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 
