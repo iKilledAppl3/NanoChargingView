@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>AwesomeSwitch1</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>darkBlur</string>
+			<key>label</key>
+			<string>Use Dark Blur</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>lightBlur</string>
+			<key>label</key>
+			<string>Use Light Blur</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>blurMyWall</string>
+			<key>label</key>
+			<string>Blur Lockscreen Wallpaper</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>This option enables the default image provided and blurs it instead of your own.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>darkBlur</string>
+			<key>label</key>
+			<string>Blur Default Image</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>killSpringBoard</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>NanoChargingView is developed by Billy Ellis and is a Copyright 2016 of Billy Ellis (@bellis1000).  all rights reserved. Additional features added by iKilledAppl3 (@iKilledAppl3).</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NanoChargingView</string>
+</dict>
+</plist>

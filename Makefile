@@ -8,7 +8,7 @@ include theos/makefiles/common.mk
 
 TWEAK_NAME = NanoChargingView
 NanoChargingView_FILES = Tweak.xm
-NanoChargingView_FRAMEWORKS = UIKit
+NanoChargingView_FRAMEWORKS = UIKit AudioToolbox AVFoundation
 NanoChargingView_CFLAGS = -Wno-error
 NanoChargingView_LDFLAGS += -Wl,-segalign,4000
 

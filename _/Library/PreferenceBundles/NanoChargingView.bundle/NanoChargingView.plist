@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>AwesomeSwitch1</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>darkBlur</string>
+			<key>label</key>
+			<string>Use Dark Blur</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>lightBlur</string>
+			<key>label</key>
+			<string>Use Light Blur</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>appleWatchSound</string>
+			<key>label</key>
+			<string>Apple Watch Chime</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>OrignialSound</string>
+			<key>label</key>
+			<string>iOS Charge Chime</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>vibrationEnabled</string>
+			<key>label</key>
+			<string>Vibrate on Charge</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>key</key>
+			<string>blurMyWall</string>
+			<key>label</key>
+			<string>Blur Lockscreen Wallpaper</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>killSpringBoard</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>defaults</key>
+			<string>com.billyellis.nanocharingviewsettings</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>NanoChargingView is developed by Billy Ellis. Additional features by iKilledAppl3.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>followBilly</string>
+			<key>label</key>
+			<string>Follow Billy Ellis (@bellis1000)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>followiKilledAppl3</string>
+			<key>label</key>
+			<string>Follow iKilledAppl3 (@iKilledAppl3)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Copyright 2016 Billy Ellis (@bellis1000) all rights reserved.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NanoChargingView</string>
+</dict>
+</plist>
